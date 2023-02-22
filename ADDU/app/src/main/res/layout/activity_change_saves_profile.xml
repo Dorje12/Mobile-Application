@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".ViewInfo">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/haveProfilePic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/synProfileMakeChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Change profile picture"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/makeNameChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/non_under"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nok" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Nickname" />
+
+            <EditText
+                android:id="@+id/makeNameChangeNick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/non_under"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nok" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dob" />
+
+            <EditText
+                android:id="@+id/makeDobChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/non_under"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nok" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/makeEmailChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/non_under"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nok" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bio" />
+
+            <EditText
+                android:id="@+id/makeBioChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/non_under" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nok" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/cancelTheEdit"
+            android:layout_width="160dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:paddingTop="15dp"
+            android:text="Cancel"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/saveTheEdit"
+            android:layout_width="160dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:paddingTop="15dp"
+            android:text="Save"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

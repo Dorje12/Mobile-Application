@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".GetTallied">
+
+    <Button
+        android:id="@+id/onfinalizeBtn"
+        android:layout_width="294dp"
+        android:layout_height="54dp"
+        android:elevation="40dp"
+        android:text="continue"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="79dp"
+        android:background="@color/ad"
+        android:text="Fill up the details below to sign up."
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dbBornSaver"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sorround"
+        android:drawablePadding="10dp"
+        android:hint="Born Year"
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dbNickNameSaver"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sorround"
+        android:drawablePadding="10dp"
+        android:hint="PetName"
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
